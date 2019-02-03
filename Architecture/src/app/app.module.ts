@@ -2,7 +2,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import {
-  AppWidgetManagerService
+  AppWidgetManagerService,
+  AppSpriteService,
+  AppProgressService,
+  AppStateService,
+
+  AppStoreDirectDebitService,
+  BankDirectDebitService
 } from './barrels/barrel.services';
 
 import {
@@ -21,7 +27,13 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule
   ],
-  providers: [AppWidgetManagerService],
+  providers: [AppWidgetManagerService,
+              AppSpriteService, 
+              AppStoreDirectDebitService,
+              BankDirectDebitService,
+              AppStateService,
+              AppProgressService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

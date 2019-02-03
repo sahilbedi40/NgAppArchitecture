@@ -1,4 +1,7 @@
 export * from '../services/app-widget-manager.service';
+export * from '../services/app-sprite.service';
+export * from '../services/app-progress.service';
+export * from '../services/app-state.service';
 
 // Store
 

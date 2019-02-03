@@ -6,6 +6,7 @@ export * from '../core/base/base-store';
 
 export * from '../core/enum/app-routes.enum';
 export * from '../core/enum/app-stores.enum';
+export * from '../core/enum/app-progress-ripple-state.enum';
 
 // Abstractions
 
